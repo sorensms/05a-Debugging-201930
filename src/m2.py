@@ -15,7 +15,7 @@ import rosegraphics as rg
 
 ###############################################################################
 #
-# Done: 2. READ these instructions, ASKING QUESTIONS as needed.
+# Done : 2. READ these instructions, ASKING QUESTIONS as needed.
 #
 #   This module contains "broken" functions, as in m1.py.
 #   FOLLOW THE SAME STEPS as in the instructions of m1.py
