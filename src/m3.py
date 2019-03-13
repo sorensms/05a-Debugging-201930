@@ -6,9 +6,8 @@ does not do the right thing.
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          Valerie Galluzzi, Mark Hays, Amanda Stouder, Aaron Wilkin,
-         their colleagues, and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
-
+         their colleagues, and Maddie Sorensen.
+"""  # Done: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ###############################################################################
 #
@@ -41,6 +40,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 ###############################################################################
 
 def main():
+    run_test_broken_1()
     """ Calls the   TEST   functions in this module. """
 
 
@@ -122,9 +122,14 @@ def broken_1(m):
     #    **  For full credit you must appropriately
     #    **  use (call) the   is_prime   function that is DEFINED ABOVE.
     count = 0
-    for k in range(2 * m):
-        if is_prime(m):
+    b=0
+    for k in range((2 * m)+2-m):
+        b=b+1
+        a=is_prime(m+b)
+        if a is True:
             count = count + 1
+    return count
+    print(count)
 
 
 # -----------------------------------------------------------------------------
